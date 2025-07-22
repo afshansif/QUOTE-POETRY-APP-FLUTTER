@@ -5,12 +5,17 @@ A Flutter app that combines inspirational quotes and beautiful poetry (ghazals) 
 ### 📱 App Screenshots
 
 ![Screenshot 1](assets/screenshots/1.png)
+
 ![Screenshot 2](assets/screenshots/2.png)
-![Screenshot 3](assets/screenshots/3.png)
+
 ![Screenshot 4](assets/screenshots/4.png)
+
 ![Screenshot 5](assets/screenshots/5.png)
+
 ![Screenshot 6](assets/screenshots/6.png)
+
 ![Screenshot 7](assets/screenshots/7.png)
+
 ![Screenshot 8](assets/screenshots/8.png)
 
 
