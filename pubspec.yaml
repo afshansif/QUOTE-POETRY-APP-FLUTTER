@@ -1,0 +1,107 @@
+name: quotes_poetry_flutter_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  http: ^1.4.0
+  google_fonts: ^6.2.1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/poets/ahmad-faraz/en/
+    - assets/poets/ahmad-faraz/ur/
+    - assets/poets/akbar-allahabadi/en/
+    - assets/poets/akbar-allahabadi/ur/
+    - assets/poets/allama-iqbal/en/
+    - assets/poets/allama-iqbal/ur/
+    - assets/poets/altaf-hussain-hali/en/
+    - assets/poets/altaf-hussain-hali/ur/
+    - assets/poets/ameer-khusrau/en/
+    - assets/poets/ameer-khusrau/ur/
+    - assets/poets/bahadur-shah-zafar/en/
+    - assets/poets/bahadur-shah-zafar/ur/
+    - assets/poets/dagh-dehlvi/en/
+    - assets/poets/dagh-dehlvi/ur/
+    - assets/poets/fahmida-riaz/en/
+    - assets/poets/fahmida-riaz/ur/
+    - assets/poets/faiz-ahmad-faiz/en/
+    - assets/poets/faiz-ahmad-faiz/ur/
+    - assets/poets/firaq-gorakhpuri/en/
+    - assets/poets/firaq-gorakhpuri/ur/
+    - assets/poets/gulzar/en/
+    - assets/poets/gulzar/ur/
+    - assets/poets/habib-jalib/en/
+    - assets/poets/habib-jalib/ur/
+    - assets/poets/jaan-nisar-akhtar/en/
+    - assets/poets/jaan-nisar-akhtar/ur/
+    - assets/poets/jaun-eliya/en/
+    - assets/poets/jaun-eliya/ur/
+    - assets/poets/javed-akhtar/en/
+    - assets/poets/javed-akhtar/ur/
+    - assets/poets/jigar-moradabadi/en/
+    - assets/poets/jigar-moradabadi/ur/
+    - assets/poets/kaifi-azmi/en/
+    - assets/poets/kaifi-azmi/ur/
+    - assets/poets/meer-anees/en/
+    - assets/poets/meer-anees/ur/
+    - assets/poets/meer-taqi-meer/en/
+    - assets/poets/meer-taqi-meer/ur/
+    - assets/poets/mirza-ghalib/en/
+    - assets/poets/mirza-ghalib/ur/
+    - assets/poets/mohsin-naqvi/en/
+    - assets/poets/mohsin-naqvi/ur/
+    - assets/poets/naji-shakir/en/
+    - assets/poets/naji-shakir/ur/
+    - assets/poets/naseer-turabi/en/
+    - assets/poets/naseer-turabi/ur/
+    - assets/poets/nazm-tabatabai/en/
+    - assets/poets/nazm-tabatabai/ur/
+    - assets/poets/nida-fazli/en/
+    - assets/poets/nida-fazli/ur/
+    - assets/poets/noon-meem-rashid/en/
+    - assets/poets/noon-meem-rashid/ur/
+    - assets/poets/parveen-shakir/en/
+    - assets/poets/parveen-shakir/ur/
+    - assets/poets/sahir-ludhianvi/en/
+    - assets/poets/sahir-ludhianvi/ur/
+    - assets/poets/wali-mohammad-wali/en/
+    - assets/poets/wali-mohammad-wali/ur/
+    - assets/poets/waseem-barelvi/en/
+    - assets/poets/waseem-barelvi/ur/
+
+  fonts:
+    - family: Farro
+      fonts:
+        - asset: assets/font/Farro/Farro-Regular.ttf
+
+    - family: Noto Nastaliq
+      fonts:
+        - asset: assets/font/Noto_Nastaliq_Urdu/NotoNastaliqUrdu.ttf
