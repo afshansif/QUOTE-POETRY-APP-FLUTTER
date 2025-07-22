@@ -17,7 +17,6 @@ class PoetNamesProvider with ChangeNotifier {
       _setError(null);
       notifyListeners();
 
-      // Load the asset manifest
       final manifestContent = await rootBundle.loadString('AssetManifest.json');
       final Map<String, dynamic> manifestMap = json.decode(manifestContent);
 
@@ -65,7 +64,6 @@ class PoetNamesProvider with ChangeNotifier {
       final manifestContent = await rootBundle.loadString('AssetManifest.json');
       final Map<String, dynamic> manifestMap = json.decode(manifestContent);
 
-      // Filter paths for the specific poet and language, and only .txt files
       final files = manifestMap.keys
           .where((path) => path.startsWith('assets/poets/$poetName/$language/'))
           .where((path) => path.endsWith('.txt'))

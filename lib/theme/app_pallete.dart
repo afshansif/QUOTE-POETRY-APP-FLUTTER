@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 class AppPalette {
   static const Color dustyLavender = Color(
     0xFF765D67,
-  ); // Soft muted purple-gray
-  static const Color deepRaspberry = Color(0xFF6D3C52); // Rich berry tone
-  static const Color darkPlum = Color(0xFF4B2138); // Intense purple base
+  ); 
+  static const Color deepRaspberry = Color(0xFF6D3C52); 
+  static const Color darkPlum = Color(0xFF4B2138); 
   static const Color blackberry = Color(
     0xFF1B0C1A,
-  ); // Near-black with purple undertone
-  static const Color twilightPurple = Color(0xFF2D222F); // Dusky neutral purple
+  ); 
+  static const Color twilightPurple = Color(0xFF2D222F); 
   static const Color peachBlush = Color(0xFFFADCD5);
 
   static const Color backgroundColor = blackberry;

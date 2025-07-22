@@ -21,7 +21,6 @@ class _HomePageState extends State<HomePage> {
     FavoritesScreen(),
   ];
 
-  //final List<String> _appbarTitle = ['Quotes', 'Poetry', 'Favorites'];
 
   void _onItemTapped(int index) {
     setState(() {
@@ -32,7 +31,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //appBar: AppBar(title: Text(_appbarTitle[_selectedIndex])),
       body: _screens[_selectedIndex],
       bottomNavigationBar: CustomBottomNavBar(
         selectedIndex: _selectedIndex,

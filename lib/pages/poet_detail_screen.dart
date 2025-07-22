@@ -16,7 +16,7 @@ class PoetDetailScreen extends StatefulWidget {
 }
 
 class _PoetDetailScreenState extends State<PoetDetailScreen> {
-  String _selectedLanguage = 'en';
+  String selectedLanguage = 'en';
   List<String> _poetryFiles = [];
   bool _isLoading = false;
 
@@ -32,7 +32,7 @@ class _PoetDetailScreenState extends State<PoetDetailScreen> {
     try {
       final files = await provider.getPoetFiles(
         widget.poetName,
-        _selectedLanguage,
+        selectedLanguage,
       );
 
       setState(() => _poetryFiles = files);
@@ -142,12 +142,10 @@ class _PoetDetailScreenState extends State<PoetDetailScreen> {
     // Extract base filename and remove extension
     String fileName = path.split('/').last.replaceAll('.txt', '');
 
-    // Remove poet name and "-ghazals" suffix
     fileName = fileName
         .replaceAll('-$poetName-ghazals', '')
         .replaceAll('-$poetName', '');
 
-    // Convert to readable title format
     return fileName
         .replaceAll('-', ' ')
         .split(' ')

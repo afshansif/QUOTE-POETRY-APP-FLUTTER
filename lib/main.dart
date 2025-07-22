@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'AK Quotes App',
+      title: 'AK Quotes',
       home: const HomePage(),
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkThemeMode,
